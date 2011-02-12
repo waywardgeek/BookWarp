@@ -1,0 +1,2 @@
+set solib-search-path /home/bill/projects/sonic-ndk/obj/local/armeabi
+directory /home/bill/projects/android-ndk-r5b/platforms/android-8/arch-arm/usr/include /home/bill/projects/sonic-ndk/jni /home/bill/projects/android-ndk-r5b/sources/cxx-stl/system
