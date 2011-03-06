@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, BookWarpUI!</string>
+    <string name="now_playing">Now Playing:</string>
     <string name="app_name">BookWarp</string>
+    <string name="speed_control">Speed Control</string>
+    <string name="title">Book Title</string>
+    <string name="current_time">10:00:00</string>
+    <string name="duration">10:00:00</string>
+    <string name="bookshelf">Book Shelf</string>
+    <string name="contents">Contents</string>
+    <string name="chapter">Chapter XX</string>
+    <string name="speed">Speed: 2.5X</string>
+    <string name="prev_chapter">|&lt;&lt;</string>
+    <string name="next_chapter">&gt;&gt;|</string>
+    <string name="backward">&lt;&lt;</string>
+    <string name="forward">&gt;&gt;</string>
+    <string name="play">**</string>
 </resources>
