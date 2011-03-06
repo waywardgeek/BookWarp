@@ -1,4 +1,6 @@
-package org.vinux.project.bookwarp;
+package org.vinuxproject.sonic;
+
+import org.vinuxproject.bookwarp.R;
 
 import android.app.Activity;
 import android.os.Bundle;

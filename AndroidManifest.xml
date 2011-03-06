@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="org.vinux.project.bookwarp"
       android:versionCode="1"
-      android:versionName="1.0">
+      android:versionName="1.0" package="org.vinuxproject.bookwarp">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".BookWarpUI"
+        <activity android:name="org.vinuxproject.sonic.BookWarpUI"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
