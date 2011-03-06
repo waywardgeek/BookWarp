@@ -15,4 +15,5 @@
     <string name="backward">&lt;&lt;</string>
     <string name="forward">&gt;&gt;</string>
     <string name="play">**</string>
+    <string name="switchToPlayer">Now playing Title...</string>
 </resources>
