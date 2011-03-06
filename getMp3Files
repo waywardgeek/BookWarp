@@ -1,0 +1,4 @@
+#!/bin/bash
+cd PrincessOfMars
+wget http://www.archive.org/download/princess_mars_0810_librivox/princess_mars_0810_librivox_64kb_mp3.zip
+unzip *.zip

@@ -1,16 +1,6 @@
-The plan so far is to create a simple accessible audio book Android app.  I see
-this made of three Android activity classes, and one service.  The service would
-handle the actual playing of audio files, speed up, and would provide all
-information about the library, chapter headings, etc.  The first activity would
-be a list view of books in the library, the second would be the chapters in the
-selected book, and the third woudl be the actual audio book player.  On the
-first two views, one of the list elements would be a widget stating what is
-currently playing.
-
-The player itself needs several widgets.  It needs a text widget to state the
-name of the book and chapter playing.  It needs a slider bar to select where in
-the chapter to play, and forward/backward buttons to move around 20 seconds
-forward or back, and also buttons to move by whole chapters.  Speed control
-should be two more buttons, or maybe a spinner control.  In the menu, perhaps
-the user could set pitch.  Settings like speed, pitch, and bookmarks should be
-book specific and saved by the playback service.
+For the next step, I want to be able to play an audio book.  I'm using "Princess
+of Mars" from librivox.org as my first test case.  I've added it as a
+sub-directory to this project, minus the mp3 files, which can be downloaded
+using the getMp3Files script.  A Book should be created by parsing the index
+file in PrincessOfMars.  It should be listed in the Bookshelf activity, and a
+Chapters activity class should be written to show chapters in a book.
